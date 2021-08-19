@@ -1,0 +1,19 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "author": "Quan Hai Hai",
+    "likes": 13
+}
+
+###  //Post blog with token authorization
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Iml1bG92ZXI5OSIsImlkIjoiNWYwMDFlNTBiMWFmMjgxOTNjNGFhYWIxIiwiaWF0IjoxNTkzODU0NzE3fQ.Rov3tG49shQ1NTb-hDbZ8JVHpl1dEkuJLc2Xe9TuZKE
+
+{
+    "url": "https://www.random.org/strings/",
+    "title": "Some random thing you should know",
+    "author": "Mical NimBumChin",
+    "likes": "47"
+}
